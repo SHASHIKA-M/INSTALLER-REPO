@@ -79,7 +79,6 @@ cat << 'EOF'
 
 EOF
     echo -e "${BLUE}   :: LXC/LXD DEPLOYMENT SUITE ::${NC}"
-    echo -e "${DIM}      Maintained by NotGamerPie${NC}"
     echo -e "\n"
 }
 
@@ -273,7 +272,6 @@ finish() {
     echo -e "   1. Refresh groups:  ${YELLOW}newgrp lxd${NC}"
     echo -e "   2. List containers: ${YELLOW}lxc list${NC}"
     echo -e ""
-    echo -e "${DIM}   Thank you for using NotGamerPie Scripts.${NC}"
     echo -e "\n"
 }
 
