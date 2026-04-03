@@ -235,7 +235,7 @@ while true; do
         [Yy]* ) 
             echo "${C}🚀 Launching AutoRestarter Setup...${N}"
             echo ""
-            curl -fsSL https://raw.githubusercontent.com/Sagargamin/INSTALLER-REPO/refs/heads/main/autorestarter.sh | sed 's/\r$//' | bash
+            curl -fsSL https://raw.githubusercontent.com/SHASHIKA-M/INSTALLER-REPO/refs/heads/main/autorestarter.sh | sed 's/\r$//' | bash
             break;;
         [Nn]* ) 
             echo ""

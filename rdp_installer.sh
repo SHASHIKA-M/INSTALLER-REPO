@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # ==========================================================
-#  RDP Installer 🚀
-#  SUBSCRIBE TO NotGamerPie
+#  RDP Installer
 # ==========================================================
 
 set -euo pipefail
@@ -71,12 +70,12 @@ run_step() {
 clear
 printf "%b\n" "${C}"
 cat <<'EOF'
-  ____      _               ____  _      
- / ___|   _| |__   ___ _ __|  _ \(_) ___ 
-| |  | | | | '_ \ / _ \ '__| |_) | |/ _ \
-| |__| |_| | |_) |  __/ |  |  __/| |  __/
- \____\__, |_.__/ \___|_|  |_|   |_|\___|
-      |___/          By NotGamerPie
+  ____      _
+ / ___|   _| |__   ___ _ __.
+| |  | | | | '_ \ / _ \ '__|
+| |__| |_| | |_) |  __/ |
+ \____\__, |_.__/ \___|_|
+      |___/          By SHASHI
 EOF
 printf "%b\n" "${N}"
 
@@ -152,6 +151,6 @@ printf "%b\n" "${G}🔹 Firewall: allowing RDP (3389)${N}"
 divider
 printf "%b" "${G}"; typewriter "✅ Installation Completed Successfully!"; printf "%b" "${N}"
 printf "%b" "${Y}"; typewriter "💻 Connect via RDP → Port 3389"; printf "%b" "${N}"
-printf "%b" "${G}"; typewriter "🔥 Powered by NotGamerPie"; printf "%b" "${N}"
+printf "%b" "${G}"; typewriter "🔥 Powered by SHASHI"; printf "%b" "${N}"
 divider
 
